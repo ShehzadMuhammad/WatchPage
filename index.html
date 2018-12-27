@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<title>The Horse - Brushed Gunmetal Olive</title>
+
+	<!-- BootStrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+	<div class="container">
+	
+		<div class="row">
+			<div class="col-sm-12">
+			<ul class="header">
+				<a style="float:right" href="#">Login</a>
+				<a style="float:right">Sign Up</a>
+			</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="mainBar">
+				<nav class="main-nav">
+					<ul style="list-style-type: none">
+						<li style="float:left"><h4>The HORSE</h4></li>
+						<li style="float:left"><a href="#">Time Tellers</a></li>
+						<li style="float:left"><a href="#">Leather Goods</a></li>
+						<li style="float:left" ><a href="#">Lifestyle</a></li>
+						<li style="float:right"><a href="#">Bag(0)</a></li>
+						<li style="float:right"><a href="#">Our Story</a></li>
+						<li style="float:right"><a href="#">Lookbook</a></li>
+					</ul>
+				</nav>
+			</div>
+			</div>
+		</div>
+
+		<div class="row">
+		    <div class="col-sm-4">
+		    	<div class="imagesBox">
+			      <ul>
+					<li><a href="#" onclick="showImage('watchFace')"><img class="watchImage" src="img/watchfacing.jpg" alt="Image"></a>
+					</li>
+					<li><a href="#"  onclick="showImage('watchBack')"><img class="watchImage" src="img/watchback.jpg" alt="Image"></a>
+					</li>
+					<li><a href="#"  onclick="showImage('watchDown')"><img class="watchImage" src="img/watchdown.jpg" alt="Image"></a>
+					</li>
+			      </ul>
+			  </div>
+		    </div>
+
+		    <div class="col-sm-4">
+		    	<div id="BigImage">
+			      <img id="watchBig" src="img/watchfacing.jpg" alt="Image">
+			  </div>
+		    </div>
+		   
+		    <div class="col-sm-4">
+		    	<div class="Description">
+			      <h3>Brushed Gunmetal Olive </h3>
+			      <div class="reviewLinks">
+					<a class="reviews"  href="#">6 Review</a>
+					<a class="reviews" href="#">Add Your Review</a>
+					</div>
+				  <p>
+				  	This watch is constructed with a sandblasted gunmental stainless steel case, white face with minimalist silver indexing, and finished with an olive leather brand. The Horse logo lettering on dial and ay buckle closure.
+				  </p>
+					
+				  <h4 class="price">$149.00</h4>
+				 <div class="addOns">
+				 	<p class="oka">+</p>
+					<p>Details and Specifications</p>
+				</div>
+				<div class="spaceStuff">
+				 <button class="btn btn-default pull-left" type="submit">Add to Cart</button>
+				</div>
+			  </div>
+		    </div>
+
+		</div>
+	
+	</div>
+
+
+<script>
+function showImage(name) {
+
+    document.getElementById("BigImage").style.visibility = "visible";
+    var watchImg = "";
+    switch (name){
+      case "watchFace":
+        watchImg = "img/watchfacing.jpg";
+        break;
+
+      case "watchBack":
+        watchImg = "img/watchdown.jpg";
+        break;
+
+      case "watchDown":
+        watchImg = "img/watchback.jpg";
+        break;
+
+ 
+    }
+    document.getElementById("watchBig").src = watchImg;
+}
+</script>
+	
+</body>
+</html>
