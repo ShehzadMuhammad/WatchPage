@@ -1,2 +1,2 @@
 # WatchPage
-Website template of a Watch Store
+A copy of a page of a online store 
