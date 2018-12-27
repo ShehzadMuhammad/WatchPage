@@ -1,0 +1,88 @@
+body {
+	background: #D3D3D3;
+}
+
+.header {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.mainBar{
+	 border-top:2px solid rgb(217, 217, 217);
+	 padding-left: 125px;
+}
+
+.main-nav {
+	display: inline;
+	padding-top: 10px;
+}
+
+
+
+ul {
+	list-style-type: none;	
+}
+
+
+a {
+  display: inline-block;
+  padding: 8px;
+  color: black;
+}
+
+.imagesBox {
+	padding-top: 150px;
+	padding-left: 120px;
+}
+
+.watchImage {
+	width:75px;
+	box-shadow:  0 0.1px 0.1px rgba(104, 104, 104, 0.8);
+	padding
+}
+
+#watchBig {
+	padding-top: 100px;
+	padding-right: 80px;
+	margin: auto;
+	width: 400px;
+}
+
+.Description {
+	padding-top: 140px;
+	 text-align: left;
+}
+
+.reviewLinks {
+	padding-bottom: 15px;
+}
+.reviews {
+	 border-bottom: 0.2px solid white;
+	 padding-bottom: 6px;
+}
+
+.price {
+	padding-top: 20px;
+	color: white;
+	font-size: 25px;
+}
+
+.Description .btn {
+  padding-top: 10px;	
+  background:  #D3D3D3;
+  box-shadow:  0 0.1px 0.1px rgba(104, 104, 104, 0.8);
+}
+
+
+.oka {
+	float:right;
+}
+
+.addOns {
+	 border-bottom: 0.5px solid white;
+	 padding-bottom: 5px;
+}
+
+.spaceStuff {
+	padding-top: 15px;
+}
